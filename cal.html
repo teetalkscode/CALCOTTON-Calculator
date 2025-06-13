@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cal.css">
+    <title>CALCOTTON - Calculator</title>
+</head>
+<body> <div class="Container">
+       <div class="calculator">
+            <input type="text" id="cdisplay" placeholder="CALCOTTON" readonly>
+
+            <div>
+                <button onclick="toggleMode()" class="mode">Mode</button>
+                <button class="button Opeartor" onclick="cleardisplay()">AC</button>
+                <button class="button Operator" onclick="appendOperation()">%</button>
+                <button class="button Operator" onclick="appendOperation()">/</button>
+            </div>
+
+            <div>
+                <button class="button Number" onclick="appendNumber()">7</button>
+                <button class="button Number" onclick="appendNumber()">8</button>
+                <button class="button Number" onclick="appendNumber()">9</button>
+                <button class="button Operator" onclick="appendOperation()">*</button>
+            </div>
+
+            <div>
+                <button class="button Number" onclick="appendNumber()">4</button>
+                <button class="button Number" onclick="appendNumber()">5</button>
+                <button class="button Number" onclick="appendNumber()">6</button>
+                <button class="button Operator" onclick="appendOperation()">+</button>
+            </div>
+
+            <div>
+                <button class="button Number" onclick="appendNumber()">1</button>
+                <button class="button Number" onclick="appendNumber()">2</button>
+                <button class="button Number" onclick="appendNumber()">3</button>
+                <button class="button Operator" onclick="appendOperation()">-</button>
+            </div>
+
+            <div>
+                <button class="btnNum" onclick="appendNumber()">0</button>
+                <button class="btnNum" onclick="appendNumber()">00</button>
+                <button class="btnNum" onclick="appendNumber()">.</button>
+                <button class="button equal" onclick="appendResult()">=</button>
+            </div>
+
+            </div>
+
+            <footer><P>Tee's Project work 2025 ~ HTML|CSS|JAVASCRIPT</P></footer>
+            </div>
+            </body>
+            </body>
+    <script src="cal.js"></script>
+</body>
+</html>
